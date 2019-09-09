@@ -1,11 +1,26 @@
 {
   "name": "gatsby-source-bamboohr",
-  "author": {
-    "email": "ed.knowles@stunjelly.com",
-    "name": "Edward Knowles"
-  },
   "version": "1.0.0",
+  "author": "Edward Knowles <ed.knowles@stunjelly.com>",
+  "description": "Gatsby source plugin for employees with BambooHR",
+  "license": "MIT",
+  "homepage": "https://github.com/eknowles/gatsby-source-bamboohr#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eknowles/gatsby-source-bamboohr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eknowles/gatsby-source-bamboohr/issues"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "bamboohr"
+  ],
   "dependencies": {
     "node-fetch": "^2.6.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.2.0"
   }
 }
