@@ -1,0 +1,11 @@
+{
+  "name": "gatsby-source-bamboohr",
+  "author": {
+    "email": "ed.knowles@stunjelly.com",
+    "name": "Edward Knowles"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
