@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-bamboohr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Edward Knowles <ed.knowles@stunjelly.com>",
   "description": "Gatsby source plugin for employees with BambooHR",
   "license": "MIT",
