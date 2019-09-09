@@ -1,17 +1,28 @@
 # gatsby-source-bamboohr
 
-> Plugin to get employees from BambooHR into Gatsby
+A Gatsby source plugin for sourcing data into your Gatsby application
+from [bamboohr](https://www.bamboohr.com/).
 
-https://documentation.bamboohr.com/docs
+The plugin creates `BambooEmployee` nodes from files.
 
-# Usage
+## Install
+
+`yarn add gatsby-source-bamboohr`
+
+## How to use
+
+In your gatsby-config.js
 
 ```
-{
-  resolve: `gatsby-source-bamboohr`,
-  options: {
-    subdomain: process.env.BAMBOO_HR_SUBDOMAIN,
-    apiKey: process.env.BAMBOO_HR_API_KEY
-  },
-},
+module.exports = {
+  plugins: [
+    {
+      resolve: `gatsby-source-bamboohr`,
+      options: {
+        subdomain: process.env.BAMBOO_HR_SUBDOMAIN,
+        apiKey: process.env.BAMBOO_HR_API_KEY
+      },
+    },
+  ],
+}
 ```
