@@ -26,3 +26,28 @@ module.exports = {
   ],
 }
 ```
+
+## Example Queries
+
+### Count Employees In A Department
+
+```graphql
+query {
+  allBambooEmployee {
+    group(field: department) {
+      totalCount
+      fieldValue
+    }
+  }
+}
+```
+
+### Get List of Locations
+
+```graphql
+query MyQuery {
+  allBambooEmployee {
+    distinct(field: location)
+  }
+}
+```
